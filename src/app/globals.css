@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #050607;
+  --color-coal: #0c0e10;
+  --color-graphite: #14171b;
+  --color-steel: #1f242a;
+  --color-gunmetal: #2a3038;
+  --color-line: #353c45;
+  --color-bone: #e7e5df;
+  --color-fog: #a8aab0;
+  --color-mute: #6a6e76;
+  --color-flame: #c1272d;
+  --color-flame-bright: #e23c3c;
+  --color-brass: #c9a14a;
+  --color-brass-dim: #8a6f2d;
+  --color-olive: #4d5d2a;
+
+  --font-display: "Oswald", "Impact", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-bone);
+    font-family: var(--font-body);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-flame);
+    color: var(--color-bone);
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-brass);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+  }
+
+  .clip-notch {
+    clip-path: polygon(
+      0 0,
+      calc(100% - 14px) 0,
+      100% 14px,
+      100% 100%,
+      14px 100%,
+      0 calc(100% - 14px)
+    );
+  }
+
+  .clip-tag {
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+  }
+
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(
+        rgba(255, 255, 255, 0.025) 1px,
+        transparent 1px
+      ),
+      radial-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    background-size: 3px 3px, 5px 5px;
+    background-position: 0 0, 1px 1px;
+    mix-blend-mode: overlay;
+    opacity: 0.6;
+  }
+
+  .stripe-warn {
+    background-image: repeating-linear-gradient(
+      135deg,
+      var(--color-brass) 0 14px,
+      var(--color-ink) 14px 28px
+    );
+  }
+
+  .ring-rule {
+    box-shadow: inset 0 0 0 1px rgba(231, 229, 223, 0.08);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
