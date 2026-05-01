@@ -1,14 +1,14 @@
 export const site = {
-  name: "144 Academy",
-  tagline: "California CCW Certification",
-  region: "Shasta County Approved",
-  city: "Redding, California",
-  phone: "530-262-1787",
-  phoneTel: "+15302621787",
-  email: "fts144academy@outlook.com",
-  instagram: "https://instagram.com/144academytraining",
-  instagramHandle: "@144academytraining",
-  discountNote: "15% Off Flyer Discount — Limited Time",
+  name: "Defense Training Template",
+  tagline: "CCW and Firearms Training",
+  region: "Region Approval Placeholder",
+  city: "Your City, State",
+  phone: "(000) 000-0000",
+  phoneTel: "+10000000000",
+  email: "training@example.com",
+  instagram: "https://instagram.com/",
+  instagramHandle: "@training-template",
+  discountNote: "Optional introductory offer placeholder",
 };
 
 export const courses = [
@@ -18,12 +18,12 @@ export const courses = [
     price: 300,
     duration: "Full course",
     description:
-      "Complete California CCW course with full legal curriculum, live-fire qualification, and certificate of completion.",
+      "Complete certification course with legal curriculum, live-fire qualification, and certificate of completion.",
     bullets: [
       "Full Legal Curriculum",
       "Live-Fire Qualification",
       "Certificate Provided",
-      "Shasta County Approved",
+      "Region-specific approval",
     ],
     badge: "Most Requested",
   },
@@ -33,11 +33,11 @@ export const courses = [
     price: 175,
     duration: "Streamlined",
     description:
-      "Stay current on California law and range qualification. Built for permit holders who need a fast, thorough renewal.",
+      "Stay current on local law and range qualification. Built for permit holders who need a fast, thorough renewal.",
     bullets: [
       "Legal Updates",
       "Range Qualification",
-      "Quick & Efficient",
+      "Quick and Efficient",
       "Same-Day Certificate",
     ],
     badge: "Renewals",
@@ -66,22 +66,22 @@ export const advancedTraining = [
     desc: "Wind reading, ballistic dope, and precision rifle fundamentals out past 600 yards.",
   },
   {
-    name: "NRA Basic Pistol",
-    desc: "Foundational pistol marksmanship and safety taught to NRA standard.",
+    name: "Basic Pistol",
+    desc: "Foundational pistol marksmanship and safety taught to a reliable baseline.",
   },
   {
-    name: "NRA PPITH & PPOTH",
-    desc: "Personal Protection In and Outside the Home — NRA defensive curriculum.",
+    name: "Home Defense",
+    desc: "Defensive scenarios, storage, and responsible readiness for home protection.",
   },
   {
-    name: "NRA Basic Rifle",
+    name: "Basic Rifle",
     desc: "Safe handling, marksmanship, and platform familiarity on rifle systems.",
   },
 ];
 
 export const trustPoints = [
-  { stat: "Shasta County", label: "Sheriff Approved" },
+  { stat: "County / Region", label: "Approval Placeholder" },
   { stat: "Live-Fire", label: "Qualification On-Range" },
   { stat: "Zoom + In-Person", label: "Flexible Formats" },
-  { stat: "NRA-Certified", label: "Instruction Standards" },
+  { stat: "Certified", label: "Instruction Standards" },
 ];

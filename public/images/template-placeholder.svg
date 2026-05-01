@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Defense training template placeholder</title>
+  <desc id="desc">Neutral placeholder artwork for a certification or training website template.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050607" />
+      <stop offset="100%" stop-color="#131a24" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)" />
+  <circle cx="260" cy="220" r="190" fill="#b22234" fill-opacity="0.14" />
+  <circle cx="980" cy="720" r="220" fill="#c9a14a" fill-opacity="0.1" />
+  <rect x="150" y="180" width="900" height="540" rx="24" fill="none" stroke="#c9a14a" stroke-opacity="0.4" stroke-width="4" />
+  <text x="600" y="420" text-anchor="middle" fill="#f5f5f4" font-family="Arial Black, Arial, sans-serif" font-size="54">TRAINING TEMPLATE</text>
+  <text x="600" y="490" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24" letter-spacing="5">REPLACE WITH APPROVED CLIENT MEDIA</text>
+</svg>

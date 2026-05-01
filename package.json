@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "stitch:init": "npx -y @_davideast/stitch-mcp init",
+    "stitch:doctor": "bash ./scripts/stitch-doctor.sh",
+    "stitch:proxy": "bash ./scripts/stitch-proxy.sh"
   },
   "dependencies": {
     "next": "15.5.15",

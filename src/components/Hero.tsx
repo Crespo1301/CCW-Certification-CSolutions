@@ -28,17 +28,16 @@ export default function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-5xl font-semibold uppercase leading-[1.02] tracking-tight text-bone sm:text-6xl md:text-7xl">
-            Get California
+            Build a trusted
             <br />
-            <span className="text-brass">CCW Certified</span>
+            <span className="text-brass">training brand</span>
             <br />
-            with confidence.
+            with this template.
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-fog md:text-lg">
-            Full legal curriculum, live-fire qualification, and a real
-            certificate of completion. Built for first-time applicants and
-            renewals out of Redding, California.
+            Use this layout for a firearms instruction, certification, or safety business. Replace the local
+            approval language, instructor biography, and offer details with real client information.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -62,7 +61,7 @@ export default function Hero() {
               href={`mailto:${site.email}`}
               className="inline-flex items-center gap-2 border border-line/80 bg-transparent px-6 py-3.5 font-semibold uppercase tracking-[0.16em] text-bone transition-colors hover:border-brass hover:text-brass cursor-pointer"
             >
-              Email the Instructor
+              Email Placeholder
             </a>
           </div>
 
@@ -83,8 +82,8 @@ export default function Hero() {
         <div className="relative md:col-span-5">
           <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden border border-line/80 bg-coal clip-notch ring-rule">
             <Image
-              src="/images/owner-headshot-with-rifle.jpg"
-              alt="144 Academy lead instructor on the range"
+              src="/images/template-placeholder.svg"
+              alt="Instructor image placeholder"
               fill
               priority
               sizes="(min-width: 1024px) 36rem, (min-width: 768px) 40vw, 100vw"
@@ -103,12 +102,12 @@ export default function Hero() {
                   Lead Instructor
                 </p>
                 <p className="font-display text-xl font-semibold uppercase tracking-wider text-bone">
-                  144 Academy
+                  Template Brand
                 </p>
               </div>
               <span className="inline-flex items-center gap-2 border border-brass/60 px-2 py-1 text-[10px] font-semibold uppercase tracking-widest text-brass">
                 <Flag className="h-2.5 w-4" />
-                NRA Certified
+                Credential Slot
               </span>
             </div>
           </div>

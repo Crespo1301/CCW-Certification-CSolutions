@@ -1,28 +1,21 @@
-# Claude Project Instructions
+# CLAUDE.md
 
-This repository uses `/home/cresp3/CCW-Certification-CSolutions` as the main workspace.
+Docs folder role: supporting documentation for the `CCW-Certification-CSolutions` mockup or proposal repo.
 
-## Use These Tools By Default When Relevant
+## Canonical Context
 
-- `ui-ux-pro-max` for premium UI/UX direction, spacing, typography, and section planning
-- Stitch MCP when a design-to-code or high-end interface exploration would help
-- 21st.dev for inspiration and component-quality benchmarking
-- Gemini image generation for asset ideation and visual mockups
+- Repo-level guidance lives in `/home/cresp3/CCW-Certification-CSolutions/CLAUDE.md`.
+- Shared workflow rules live in `/home/cresp3/Portfolio/AI-WORKFLOW.md`.
+- Public business and active-project status lives in `/home/cresp3/Portfolio/src/data/projects.ts`.
 
+## Working Notes
 
+- Treat this folder as documentation for a proposal asset, not a core maintained production surface.
+- Keep docs aligned with the current CSolutions workflow and tool split.
+- Do not rely on stale assumptions from older portfolio copies or old design experiments.
 
-## Working Rules
+## Claude Role Here
 
-- Keep the CSolutions ocean-blue brand system consistent
-- Preserve responsiveness and production functionality
-- Prefer working in the live repo with `npm run dev` running in the background
-- Avoid switching work back to `Portfolio-codex-hero`
+- Use Claude for proposal framing, copy direction, and document polish.
+- Let Codex handle implementation, maintenance, organization, and GitHub closeout.
 
-## Helpful Commands
-
-```bash
-npm run check:node
-npm run dev
-npm run stitch:doctor
-npm run stitch:proxy
-```

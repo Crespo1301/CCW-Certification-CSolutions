@@ -24,7 +24,7 @@ const channels = [
   {
     label: "Location",
     value: site.city,
-    href: "https://maps.google.com/?q=Redding%2C+California",
+    href: "https://maps.google.com/",
     icon: (
       <>
         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -75,8 +75,8 @@ export default function Contact() {
             Reach out. Reserve your seat.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-fog">
-            Calls and texts are answered first. Reference the flyer for the
-            15% off introductory discount.
+            Update this area with the final preferred contact path, response expectation, and any region-specific
+            enrollment notes.
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
             Call {site.phone}
           </a>
           <a
-            href={`mailto:${site.email}?subject=${encodeURIComponent("CCW course inquiry")}`}
+            href={`mailto:${site.email}?subject=${encodeURIComponent("Course inquiry")}`}
             className="inline-flex items-center gap-2 border border-line/80 px-7 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-bone transition-colors hover:border-brass hover:text-brass cursor-pointer"
           >
             Email {site.email}

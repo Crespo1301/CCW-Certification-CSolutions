@@ -10,7 +10,7 @@ export default function AdvancedTraining() {
     >
       <div className="pointer-events-none absolute inset-0">
         <Image
-          src="/images/gun-images/rifle-1.jpg"
+          src="/images/template-placeholder.svg"
           alt=""
           aria-hidden="true"
           fill
@@ -36,9 +36,8 @@ export default function AdvancedTraining() {
             Beyond the permit. Real defensive skill.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-fog">
-            For students who want more than the minimum. NRA-standard
-            curriculum plus tactical and long-range disciplines, taught at
-            ranges in and around Shasta County.
+            Keep this section for upsell training, private instruction, or specialized offerings once the final
+            business positioning is set.
           </p>
         </div>
 

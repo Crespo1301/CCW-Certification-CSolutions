@@ -12,44 +12,41 @@ export default function RangeReel() {
             </h2>
           </div>
           <p className="max-w-md text-sm leading-relaxed text-fog">
-            Live-fire is a core part of every certification. Below: a quick
-            look at training drills and platforms students see during
-            advanced courses.
+            Keep this slot for range footage, classroom footage, or still imagery once the real client media is
+            ready.
           </p>
         </div>
 
         <div className="mt-12 grid gap-4 md:grid-cols-12">
           <div className="relative aspect-video overflow-hidden border border-line/80 bg-coal md:col-span-7 ring-rule">
-            <video
-              className="h-full w-full object-cover"
-              src="/images/training-montage/montage-1.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              poster="/images/owner-headshot-with-rifle.jpg"
-              aria-label="Training montage from 144 Academy"
-            />
+            <div className="grid h-full w-full place-items-center bg-[radial-gradient(circle_at_top,rgba(193,39,45,0.18),transparent_55%),linear-gradient(135deg,rgba(201,161,74,0.08),rgba(5,6,7,0.92))] px-8 text-center">
+              <div>
+                <p className="font-display text-sm uppercase tracking-[0.22em] text-brass">
+                  Media Placeholder
+                </p>
+                <p className="mt-3 max-w-md text-sm leading-relaxed text-fog">
+                  Drop in a short training montage, classroom video, or hero still.
+                </p>
+              </div>
+            </div>
             <div className="absolute left-4 top-4 inline-flex items-center gap-2 border border-line/80 bg-ink/85 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-brass">
-              <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-flame" />
-              Training Montage
+              Placeholder A
             </div>
           </div>
 
           <div className="relative aspect-video overflow-hidden border border-line/80 bg-coal md:col-span-5 ring-rule">
-            <video
-              className="h-full w-full object-cover"
-              src="/images/gun-images/gattling-gun-video.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              aria-label="Range platform showcase"
-            />
+            <div className="grid h-full w-full place-items-center bg-[radial-gradient(circle_at_bottom,rgba(60,59,110,0.18),transparent_55%),linear-gradient(135deg,rgba(201,161,74,0.05),rgba(5,6,7,0.94))] px-8 text-center">
+              <div>
+                <p className="font-display text-sm uppercase tracking-[0.22em] text-brass">
+                  Media Placeholder
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-fog">
+                  Replace with secondary proof media, range photos, or certification imagery.
+                </p>
+              </div>
+            </div>
             <div className="absolute left-4 top-4 inline-flex items-center gap-2 border border-line/80 bg-ink/85 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-brass">
-              Platforms
+              Placeholder B
             </div>
           </div>
         </div>

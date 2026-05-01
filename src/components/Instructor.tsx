@@ -3,10 +3,10 @@ import { site } from "@/data/site";
 import Flag from "./Flag";
 
 const credentials = [
-  "NRA-certified curriculum",
-  "Live-fire range qualification",
+  "Curriculum placeholder",
+  "Live-fire qualification",
   "Tactical and defensive training",
-  "Long-range precision instruction",
+  "Private coaching options",
 ];
 
 export default function Instructor() {
@@ -19,8 +19,8 @@ export default function Instructor() {
         <div className="relative md:col-span-5">
           <div className="relative aspect-[4/5] w-full overflow-hidden border border-line/80 bg-graphite ring-rule">
             <Image
-              src="/images/owner-headshot-with-rifle.jpg"
-              alt="144 Academy lead instructor"
+              src="/images/template-placeholder.svg"
+              alt="Instructor portrait placeholder"
               fill
               sizes="(min-width: 1024px) 28rem, (min-width: 768px) 40vw, 100vw"
               className="object-cover"
@@ -32,7 +32,7 @@ export default function Instructor() {
                 Lead Instructor
               </p>
               <p className="font-display text-base font-semibold uppercase tracking-wide text-bone">
-                144 Academy
+                Template Brand
               </p>
             </div>
             <a
@@ -52,13 +52,11 @@ export default function Instructor() {
             Train with confidence
           </p>
           <h2 className="mt-3 font-display text-4xl font-semibold uppercase leading-tight tracking-tight text-bone md:text-5xl">
-            Trained to teach. Built to keep you safe.
+            Trained to teach. Built to keep people safe.
           </h2>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-fog">
-            144 Academy runs out of Redding, California with a focus on
-            students who want a real understanding of the law, the firearm,
-            and the responsibility of carrying. Curriculum is direct, no
-            filler, and aimed at producing competent, lawful carriers.
+            Replace this section with the instructor credentials, teaching style, and why local students should
+            trust the business. Keep the language calm, competent, and specific to the actual market.
           </p>
 
           <ul className="mt-8 grid gap-3 sm:grid-cols-2">

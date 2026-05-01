@@ -17,41 +17,39 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://144academy.example.com"),
+  metadataBase: new URL("https://training-template.example.com"),
   title: {
-    default: "144 Academy — California CCW Certification | Shasta County",
-    template: "%s | 144 Academy",
+    default: "Defense Training Template | CCW and Firearms Training",
+    template: "%s | Defense Training Template",
   },
   description:
-    "Shasta County approved CCW certification, renewals, and advanced firearms training in Redding, California. Initial CCW $300, renewal $175. Zoom and in-person courses available.",
+    "Reusable landing-page template for CCW certification, firearms instruction, and range-based training businesses.",
   keywords: [
-    "CCW California",
-    "Shasta County CCW",
-    "Redding firearms training",
-    "concealed carry course",
-    "NRA basic pistol",
-    "advanced handgun training",
-    "144 Academy",
+    "CCW website template",
+    "firearms training website",
+    "certification landing page",
+    "concealed carry course site",
+    "training business template",
   ],
   openGraph: {
-    title: "144 Academy — California CCW Certification",
+    title: "Defense Training Template",
     description:
-      "Shasta County approved CCW certification and advanced firearms training in Redding, California.",
+      "Reusable landing-page template for certification and firearms training businesses.",
     type: "website",
     images: [
       {
-        url: "/images/owner-headshot-with-rifle.jpg",
+        url: "/images/template-placeholder.svg",
         width: 1080,
         height: 1080,
-        alt: "144 Academy lead instructor",
+        alt: "Defense training template placeholder",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "144 Academy — California CCW Certification",
+    title: "Defense Training Template",
     description:
-      "Shasta County approved CCW certification and advanced firearms training.",
+      "Reusable landing-page template for certification and training businesses.",
   },
   robots: { index: true, follow: true },
 };

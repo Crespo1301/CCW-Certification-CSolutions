@@ -21,7 +21,7 @@ export default function Navbar() {
             <Logo className="h-5 w-5" />
           </span>
           <span className="font-display text-xl font-semibold uppercase tracking-[0.18em]">
-            144 <span className="text-brass">Academy</span>
+            Defense <span className="text-brass">Template</span>
           </span>
         </Link>
 
