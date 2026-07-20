@@ -43,3 +43,6 @@ next-env.d.ts
 .agents/
 .claude/
 .code-review-graph/
+
+# Local browser QA screenshots
+.visual-checks/
