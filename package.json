@@ -12,7 +12,7 @@
     "stitch:proxy": "bash ./scripts/stitch-proxy.sh"
   },
   "dependencies": {
-    "next": "15.5.15",
+    "next": "16.2.12",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
@@ -25,5 +25,9 @@
     "eslint-config-next": "15.5.15",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "postcss": "8.5.24",
+    "sharp": "0.35.3"
   }
 }
