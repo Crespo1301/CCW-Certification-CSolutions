@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint src next.config.ts",
     "stitch:init": "npx -y @_davideast/stitch-mcp init",
     "stitch:doctor": "bash ./scripts/stitch-doctor.sh",
     "stitch:proxy": "bash ./scripts/stitch-proxy.sh"
