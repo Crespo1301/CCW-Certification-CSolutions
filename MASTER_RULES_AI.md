@@ -4,14 +4,33 @@
 
 ## Project Context And Voice
 
-Project: CCW Certification Template Docs
-Purpose: Repo-local documentation copy for the CCW certification template.
-Voice: Trustworthy, calm, legally careful, and instructional. Keep the docs practical for future template customization.
+Project: CCW Certification Template
+Purpose: Reusable lead/template site for firearms or certification businesses.
+Voice: Trustworthy, calm, legally careful, and instructional. Avoid hype around weapons or aggressive language.
 Keep the shared rules below unless this section gives a narrower project-specific direction.
 
 ---
 
-## Writing  -  Phrases and Patterns to Avoid
+## Carlos's Voice (read first)
+
+When writing in Carlos's voice (blog posts, newsletters, client emails, social),
+follow the rules below. If Carlos shares real past writing, match its cadence
+over any description. The rules:
+
+- **Run-on sentences chained with commas.** Long and flowing is the default. Do
+  not clip into short choppy sentences.
+- **Straight to the point.** Run-on does not mean meandering. State the point
+  fast, no wind-up.
+- **Exclamations** where the energy is real.
+- **Avoid "and" as a crutch (high priority).** No "and that's why", "and you
+  see", "and so", and no long "and ... and ... and" chains. Use commas, or just
+  say the next thing. An occasional "and" is fine.
+- No em dashes (see below). No "homework"/academia framing, Carlos runs a
+  business now, use "study" or "project".
+
+---
+
+## Writing - Phrases and Patterns to Avoid
 
 ### Punctuation and Grammar
 
@@ -36,7 +55,7 @@ These words signal academic padding. Cut them or rewrite the sentence without th
 
 ### Transition Addiction
 
-Severity: 4. Do not open paragraphs with transition words. "Moreover", "Furthermore", "However", "Nevertheless"  -  remove them. Let the content flow naturally from one thought to the next without signposting.
+Severity: 4. Do not open paragraphs with transition words. "Moreover", "Furthermore", "However", "Nevertheless" - remove them. Let the content flow naturally from one thought to the next without signposting.
 
 ---
 
@@ -48,7 +67,7 @@ Severity: 4-5. Do not use:
 - "a testament to"
 - "nestled in"
 - "a delicate balance"
-- Comparisons that are random or nonsensical  -  "like an angry octopus after a bad haircut"
+- Comparisons that are random or nonsensical - "like an angry octopus after a bad haircut"
 
 Use concrete, specific descriptions instead. Only use a metaphor if it genuinely clarifies meaning.
 
@@ -96,10 +115,10 @@ Severity: 3. Do not use short fragments to manufacture drama. "It was over. Fina
 ### Content Patterns
 
 **Telling instead of showing**
-Severity: 4. Do not explain reactions after showing them. "She was angry, which showed in her expression"  -  cut the explanation. Show it through action and dialogue.
+Severity: 4. Do not explain reactions after showing them. "She was angry, which showed in her expression" - cut the explanation. Show it through action and dialogue.
 
 **Redundant adjective pairs**
-Severity: 3. Pick one adjective. "Dark and brooding", "loud and brash", "quick and agile"  -  choose the stronger word and cut the other.
+Severity: 3. Pick one adjective. "Dark and brooding", "loud and brash", "quick and agile" - choose the stronger word and cut the other.
 
 ---
 
@@ -111,7 +130,7 @@ Write dialogue that does not answer itself. If a character asks a question, the 
 
 ---
 
-### Master Prompt  -  Quick Copy
+### Master Prompt - Quick Copy
 
 For pasting into any new session:
 
@@ -119,11 +138,11 @@ Write naturally without: em dashes (use commas or periods), the words delve / mo
 
 ---
 
-## Code  -  General Do's and Don'ts
+## Code - General Do's and Don'ts
 
 Do write clean, readable code with meaningful variable names. Comment the "why", not the "what". Keep functions small and single-purpose. Use consistent formatting and follow the project's linter and formatter rules. Write for the next developer who reads it, not just for the machine that runs it.
 
-Don't leave dead code or commented-out blocks in production. Don't hard-code secrets, API keys, or environment-specific values  -  use environment variables. Don't ignore error handling. Don't over-engineer early.
+Don't leave dead code or commented-out blocks in production. Don't hard-code secrets, API keys, or environment-specific values - use environment variables. Don't ignore error handling. Don't over-engineer early.
 
 ---
 
@@ -131,7 +150,7 @@ Don't leave dead code or commented-out blocks in production. Don't hard-code sec
 
 Do write clear, descriptive commit messages in present tense: "Add hero section layout", not "added stuff". Use feature branches for all new work. Keep commits focused to one logical change. Review your own diff before pushing.
 
-Don't commit directly to main. Don't push broken code to a shared branch. Don't use vague commit messages like "fix", "update", or "stuff". Don't commit node_modules, .env files, or build artifacts  -  keep .gitignore clean.
+Don't commit directly to main. Don't push broken code to a shared branch. Don't use vague commit messages like "fix", "update", or "stuff". Don't commit node_modules, .env files, or build artifacts - keep .gitignore clean.
 
 ---
 
