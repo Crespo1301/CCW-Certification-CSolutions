@@ -51,7 +51,11 @@ export const metadata: Metadata = {
     description:
       "Reusable landing-page template for certification and training businesses.",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+  },
 };
 
 export default function RootLayout({
