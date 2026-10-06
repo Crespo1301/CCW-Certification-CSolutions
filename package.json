@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0 -p 3008",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3008",
     "lint": "eslint src next.config.ts",
     "stitch:init": "npx -y @_davideast/stitch-mcp init",
     "stitch:doctor": "bash ./scripts/stitch-doctor.sh",
